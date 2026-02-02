@@ -141,6 +141,7 @@ public class AuthService {
         response.setEmail(user.getEmail());
         response.setRole(user.getRole().name());
         response.setMemberLevel(user.getMemberLevel().name());
+        response.setAvatar(user.getAvatar());
         return response;
     }
 }
